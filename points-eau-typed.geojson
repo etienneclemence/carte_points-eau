@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2346,
+          47.8825
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine du Cimetière de Soultz",
+        "description": "📍 <b>Adresse :</b> Route de Raedersheim<br>🚰 <b>Eau potable</b><br>⏰ 7h à 18h<br>📅 mi-avril à mi-novembre",
+        "type": "fontaine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2301,
+          47.8863
+        ]
+      },
+      "properties": {
+        "titre": "Toilette publique",
+        "description": "📍 <b>Adresse :</b> 2 rue des sœurs, Soultz<br>🚰 <b>Eau potable</b><br>⏰ 7h à 22h<br>📅 Toute l'année",
+        "type": "wc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1031,
+          47.9041
+        ]
+      },
+      "properties": {
+        "titre": "Toilette - Col du Grand Ballon",
+        "description": "📍 <b>Adresse :</b> Maison de l'abeille et du pain d'épice, Col du Grand Ballon<br>🚰 Eau potable<br>⏰ 7h à 19h<br>📅 Toute l'année",
+        "type": "wc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.157802,
+          47.923576
+        ]
+      },
+      "properties": {
+        "titre": "Toilettes publiques de Murbach",
+        "description": "📍 <b>Adresse :</b> Rue de l'Église, 68530 Murbach<br>🚰 Eau potable<br>⏰ Non précisé<br>📅 Toute l'année",
+        "type": "wc"
+      }
+    }
+  ]
+}
