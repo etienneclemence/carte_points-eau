@@ -9,7 +9,14 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
   <style>
-    #map { height: 100vh; }
+    #map {
+  height: 500px;
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
     .emoji-marker {
       background-color: white;
       border-radius: 50%;
@@ -38,6 +45,7 @@
 </head>
 <body>
 
+<h2 style="text-align:center;">💧 Carte des points d'eau de Guebwiller</h2>
 <div id="map"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
