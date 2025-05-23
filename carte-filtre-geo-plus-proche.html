@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carte des points d'eau - Avancée</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <style>
+    #map { height: 100vh; }
+    .leaflet-control-custom {
+      background-color: white;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+      border-radius: 4px;
+      line-height: 26px;
+      text-align: center;
+      cursor: pointer;
+      padding: 5px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<script>
+  var map = L.map('map').setView([47.905, 7.175], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Géolocalisation
+  var locateControl = L.control({position: 'topleft'});
+  locateControl.onAdd = function(map) {
+    var div = L.DomUtil.create('div', 'leaflet-control-custom');
+    div.innerHTML = '📍';
+    div.title = "Me localiser";
+    div.onclick = function() {
+      map.locate({setView: true, maxZoom: 16});
+    };
+    return div;
+  };
+  locateControl.addTo(map);
+
+  map.on('locationfound', function(e) {
+    var userLatLng = e.latlng;
+    L.marker(userLatLng).addTo(map).bindPopup("📍 Vous êtes ici").openPopup();
+
+    // calculer la distance la plus courte
+    var minDist = Infinity;
+    var closestLayer = null;
+
+    markers.eachLayer(function(layer) {
+      var dist = userLatLng.distanceTo(layer.getLatLng());
+      if (dist < minDist) {
+        minDist = dist;
+        closestLayer = layer;
+      }
+    });
+
+    if (closestLayer) {
+      var latlng = closestLayer.getLatLng();
+      map.setView(latlng, 17);
+      closestLayer.openPopup();
+      L.circle(latlng, {radius: 250, color: "green", fillOpacity: 0.1}).addTo(map);
+    }
+  });
+
+  // Gestion des types d'eau
+  function getEmoji(type) {
+    if (type === "wc") return "🚻";
+    if (type === "fontaine") return "⛲";
+    if (type === "source") return "💦";
+    if (type === "commercant") return "🛒";
+    return "📍";
+  }
+
+  var markers = L.markerClusterGroup();
+  var layerGroups = {};
+
+  fetch('points-eau-typed.geojson')
+    .then(res => res.json())
+    .then(data => {
+      data.features.forEach(f => {
+        var type = f.properties.type;
+        var marker = L.marker([f.geometry.coordinates[1], f.geometry.coordinates[0]])
+          .bindPopup("<b>" + getEmoji(type) + " " + f.properties.titre + "</b><br>" + f.properties.description);
+        if (!layerGroups[type]) {
+          layerGroups[type] = L.layerGroup();
+        }
+        layerGroups[type].addLayer(marker);
+        markers.addLayer(marker);
+      });
+
+      map.addLayer(markers);
+      L.control.layers(null, layerGroups, {collapsed: false, position: 'topright'}).addTo(map);
+    })
+    .catch(err => alert("Erreur : " + err));
+</script>
+</body>
+</html>
