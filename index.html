@@ -74,11 +74,11 @@ function showMarkers(features) {
   markerLayer = L.layerGroup();
   features.forEach(f => {
     const emoji = {wc: '🚻', fontaine: '⛲', source: '💦', commerce: '🛒'}[f.properties.type] || '❓';
-    const marker = L.marker(f.geometry.coordinates.reverse(), {
+    const latlng = [f.geometry.coordinates[1], f.geometry.coordinates[0]];
+    const marker = L.marker(latlng, {
       icon: L.divIcon({className: 'emoji-marker', html: emoji, iconSize: [30, 30], iconAnchor: [15, 15]})
     }).bindPopup(`<b>${f.properties.titre}</b><br>${f.properties.description}`);
     markerLayer.addLayer(marker);
-    f.geometry.coordinates.reverse(); // Reset to original [lon, lat]
   });
   markerLayer.addTo(map);
 }
