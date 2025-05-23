@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carte des points d'eau</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { height: 100vh; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  var map = L.map('map').setView([47.905, 7.175], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Style en fonction du type
+  function getEmoji(type) {
+    if (type === "wc") return "🚻";
+    if (type === "fontaine") return "⛲";
+    return "💧";
+  }
+
+  // Charger les points depuis le GeoJSON
+  fetch('points-eau-typed.geojson')
+    .then(res => res.json())
+    .then(data => {
+      L.geoJSON(data, {
+        pointToLayer: function (feature, latlng) {
+          return L.circleMarker(latlng, {
+            radius: 10,
+            color: "#0077b6",
+            fillColor: "#90e0ef",
+            fillOpacity: 0.8
+          }).bindPopup("<b>" + getEmoji(feature.properties.type) + " " + feature.properties.titre + "</b><br>" + feature.properties.description);
+        }
+      }).addTo(map);
+    })
+    .catch(err => {
+      alert("Erreur lors du chargement des données : " + err);
+    });
+</script>
+</body>
+</html>
