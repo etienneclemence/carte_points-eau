@@ -176,6 +176,86 @@
         "type": "fontaine",
         "periode": "toute l'année"
       }
+    },
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2088331,
+          47.9114898
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine de l’église – Guebwiller",
+        "description": "📍 <b>Adresse :</b> Place de l’Église, Guebwiller<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Heures d’ouverture de la ville<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1609,
+          47.9412
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine rue des Boulangers – Soultzmatt",
+        "description": "📍 <b>Adresse :</b> Rue des Boulangers, Soultzmatt<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1609,
+          47.9412
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine rue du Bois – Bergholtz-Zell",
+        "description": "📍 <b>Adresse :</b> Rue du Bois, Bergholtz-Zell<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1609,
+          47.9412
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine rue de la Paix – Lautenbach",
+        "description": "📍 <b>Adresse :</b> Rue de la Paix, Lautenbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1608674,
+          47.9412043
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine rue Principale – Lautenbach",
+        "description": "📍 <b>Adresse :</b> Rue des Pierres, Lautenbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
     }
   ]
 }
