@@ -166,24 +166,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.1609,
-          47.9412
-        ]
-      },
-      "properties": {
-        "titre": "Fontaine rue du Bois – Bergholtz-Zell",
-        "description": "📍 <b>Adresse :</b> Rue du Bois, Bergholtz-Zell<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "fontaine",
-        "periode": "toute l'année"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.1609,
-          47.9412
+          7.160672,
+          47.940062
         ]
       },
       "properties": {
@@ -198,8 +182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.1608674,
-          47.9412043
+          7.15844,
+          47.94021
         ]
       },
       "properties": {
