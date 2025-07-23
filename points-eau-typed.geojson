@@ -150,8 +150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.1609,
-          47.9412
+          7.238394,
+          47.960615
         ]
       },
       "properties": {
@@ -174,6 +174,150 @@
         "titre": "Fontaine rue de la Paix – Lautenbach",
         "description": "📍 <b>Adresse :</b> Rue de la Paix, Lautenbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
         "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.243746,
+          47.955607
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine du cimetière de Soultzmatt",
+        "description": "📍 <b>Adresse :</b> D5, Rue d'Orschwihr <br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.157819,
+          47.923560
+        ]
+      },
+      "properties": {
+        "titre": "Toilettes publiques de l'Abbaye – Murbach",
+        "description": "📍 <b>Adresse :</b> Rue de l'église, Murbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Toilettes",
+        "periode": "toute l'année"
+      }
+    },
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.157729,
+          47.923510
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine du cimetière de l'Abbaye – Murbach",
+        "description": "📍 <b>Adresse :</b> Rue de l'église, Murbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.128285,
+          47.908056
+        ]
+      },
+      "properties": {
+        "titre": "Source du Judenhut - Murbach",
+        "description": "📍 <b>Adresse :</b> Col du Judenhut, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Source",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.152295,
+          47.902702
+        ]
+      },
+      "properties": {
+        "titre": "Source au dessus de Rimbach",
+        "description": "📍 <b>Adresse :</b> Croisement à droite sur la route de la Glashutte <br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Source",
+        "periode": "toute l'année"
+      }
+    },
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.141018,
+          47.926478
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine Elisabeth FUCHS – Murbach",
+        "description": "📍 <b>Adresse :</b> Col de Wolsfgrube, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Source",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.12772,
+          47.94874
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine de la mairie - Linthal",
+        "description": "📍 <b>Adresse :</b>79 rue du Hilsenfirst, Linthal<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Toilettes",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.124312,
+          47.953053
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine libre service",
+        "description": "📍 <b>Adresse :</b> Rue des Prés, 68610, Linthal h<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Fontaine",
+        "periode": "toute l'année"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.148717,
+          47.941319
+        ]
+      },
+      "properties": {
+        "titre": "Cimetière de Lautenbachzell",
+        "description": "📍 <b>Adresse :</b> Cimetière de Lautenbachzell, 68610 Lautenbachzell<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
+        "type": "Fontaine",
         "periode": "toute l'année"
       }
     },
