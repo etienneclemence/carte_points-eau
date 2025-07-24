@@ -337,6 +337,54 @@
         "periode": "toute l'année"
       }
     },
+     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.18899,
+          47.88158
+        ]
+      },
+      "properties": {
+        "titre": "Toilettes publiques de l'Abbaye",
+        "description": "📍 <b>Adresse :</b> Basilique de Thierenbach, 68500 Jungholtz<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "type": "wc",
+        "periode": "toute l'année"
+      }
+    },
+     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.250320,
+          47.904617
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine du cimetière d'Issenheim",
+        "description": "📍 <b>Adresse :</b> Cimetière d'Issenheim, 68500 Issenheim<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
+     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.214023,
+          47.903987
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine du parc de la Neuenbourg",
+        "description": "📍 <b>Adresse :</b> Parc du chateau de la Neuenbourg, 68500 Guebwiller<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "type": "fontaine",
+        "periode": "toute l'année"
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
