@@ -92,7 +92,7 @@
       },
       "properties": {
         "titre": "Fontaine publique",
-        "description": "📍 <b>Adresse :</b> 68 rue principale, 68500 Wuenheim<br>🚰 <b>Eau Non potable</b><br>⏰ <b>Horaires :</b> 24h/24<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "description": "📍 <b>Adresse :</b> 68 rue principale, 68500 Wuenheim<br>🚰 <b>Eau Non vérifiée potable</b><br>⏰ <b>Horaires :</b> 24h/24<br>📅 <b>Période :</b> Ouvert toute l'année",
         "type": "fontaine",
         "periode": "toute l'année"
       }
@@ -236,7 +236,7 @@
       },
       "properties": {
         "titre": "Source du Judenhut - Murbach",
-        "description": "📍 <b>Adresse :</b> Col du Judenhut, Murbach<br>🚰 <b>Eau non potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "description": "📍 <b>Adresse :</b> Col du Judenhut, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
         "type": "source",
         "periode": "toute l'année"
       }
@@ -252,8 +252,24 @@
       },
       "properties": {
         "titre": "Source au dessus de Rimbach",
-        "description": "📍 <b>Adresse :</b> Croisement à droite sur la route de la Glashutte <br>🚰 <b>Eau non potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "description": "📍 <b>Adresse :</b> Croisement à droite sur la route de la Glashutte <br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
         "type": "source",
+        "periode": "toute l'année"
+      }
+    },
+     {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.156851,
+          47.904909
+        ]
+      },
+      "properties": {
+        "titre": "Fontaine de Rimbach",
+        "description": "📍 <b>Adresse :</b> Mairie de Rimbach Près Guebwiller <br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "type": "fontaine",
         "periode": "toute l'année"
       }
     },
@@ -268,7 +284,7 @@
       },
       "properties": {
         "titre": "Fontaine Elisabeth FUCHS – Murbach",
-        "description": "📍 <b>Adresse :</b> Col de Wolsfgrube, Murbach<br>🚰 <b>Eau non potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "description": "📍 <b>Adresse :</b> Col de Wolsfgrube, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
         "type": "source",
         "periode": "toute l'année"
       }
@@ -284,7 +300,7 @@
       },
       "properties": {
         "titre": "Fontaine de la mairie - Linthal",
-        "description": "📍 <b>Adresse :</b>79 rue du Hilsenfirst, Linthal<br>🚰 <b>Eau non potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
+        "description": "📍 <b>Adresse :</b>79 rue du Hilsenfirst, Linthal<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Ouvert toute l'année",
         "type": "wc",
         "periode": "toute l'année"
       }
