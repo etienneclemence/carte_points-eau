@@ -205,7 +205,7 @@
       "properties": {
         "titre": "Toilettes publiques de l'Abbaye – Murbach",
         "description": "📍 <b>Adresse :</b> Rue de l'église, Murbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Toilettes",
+        "type": "wc",
         "periode": "toute l'année"
       }
     },
@@ -221,7 +221,7 @@
       "properties": {
         "titre": "Fontaine du cimetière de l'Abbaye – Murbach",
         "description": "📍 <b>Adresse :</b> Rue de l'église, Murbach<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Fontaine",
+        "type": "fontaine",
         "periode": "toute l'année"
       }
     },
@@ -237,7 +237,7 @@
       "properties": {
         "titre": "Source du Judenhut - Murbach",
         "description": "📍 <b>Adresse :</b> Col du Judenhut, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Source",
+        "type": "source",
         "periode": "toute l'année"
       }
     },
@@ -253,7 +253,7 @@
       "properties": {
         "titre": "Source au dessus de Rimbach",
         "description": "📍 <b>Adresse :</b> Croisement à droite sur la route de la Glashutte <br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Source",
+        "type": "source",
         "periode": "toute l'année"
       }
     },
@@ -269,7 +269,7 @@
       "properties": {
         "titre": "Fontaine Elisabeth FUCHS – Murbach",
         "description": "📍 <b>Adresse :</b> Col de Wolsfgrube, Murbach<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Source",
+        "type": "source",
         "periode": "toute l'année"
       }
     },
@@ -285,7 +285,7 @@
       "properties": {
         "titre": "Fontaine de la mairie - Linthal",
         "description": "📍 <b>Adresse :</b>79 rue du Hilsenfirst, Linthal<br>🚰 <b>Eau non vérifiée potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Toilettes",
+        "type": "wc",
         "periode": "toute l'année"
       }
     },
@@ -301,7 +301,7 @@
       "properties": {
         "titre": "Fontaine libre service",
         "description": "📍 <b>Adresse :</b> Rue des Prés, 68610, Linthal h<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Fontaine",
+        "type": "fontaine",
         "periode": "toute l'année"
       }
     },
@@ -317,7 +317,7 @@
       "properties": {
         "titre": "Cimetière de Lautenbachzell",
         "description": "📍 <b>Adresse :</b> Cimetière de Lautenbachzell, 68610 Lautenbachzell<br>🚰 <b>Eau potable</b><br>⏰ <b>Horaires :</b> Accessible en continu<br>📅 <b>Période :</b> Toute l’année",
-        "type": "Fontaine",
+        "type": "fontaine",
         "periode": "toute l'année"
       }
     },
